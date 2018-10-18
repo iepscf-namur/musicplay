@@ -1,0 +1,30 @@
+/*
+**générale
+*/
+body
+{
+    font-size: 20px;
+    height:100%;
+    background-color:#e3f2fd;
+}
+nav
+{
+    /*00->0% 33->20% 66->40%  99->60% CC->80%*/
+    background-color: #ffffff33;
+    max-height: 75px;
+}
+.active
+{
+    /*e3->227 f2->242 fd->253*/
+    /*182->b6 194->c2 202->ca*/
+    color : #b6c2ca;
+}
+
+/*
+**logo
+*/
+.logo
+{
+    max-height: 100px;
+    visibility: visible;
+}
