@@ -1,0 +1,7 @@
+##fichiers crees durant la compilation
+#fichier specifique a la machine
+target/musicplay/META-INF/MANIFEST.MF
+#fichier compilant la configuration
+.idea/workspace.xml
+##dossier concernant des artefacts de tomcat qu'on n'utilisera pas
+.idea/artifacts/*
