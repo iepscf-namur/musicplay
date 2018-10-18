@@ -1,3 +1,5 @@
+<!--Cette première directive est obligatoire pour appliquer l'encodage-->
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div class="container contenu">
     <div class="row">
         <div class="col-sm-3">
@@ -11,12 +13,12 @@
             </p>
         </div>
         <div class="col-sm-4">
-            <img src="ressources/images/content/hqdefault.jpg" >
+            <img src="../images/content/hqdefault.jpg" >
         </div>
     </div>
     <div class="row">
         <div class="col-sm-4">
-            <img class="imageDeGauche" src="ressources/images/content/hqdefault.jpg" >
+            <img class="imageDeGauche" src="../images/content/hqdefault.jpg" >
         </div>
         <div class="col-sm-5">
             <p>
@@ -33,14 +35,5 @@
 </div>
 
 
-<footer class="container">
-    Créé par les étudiants de 4em année de l'IEPSCF Namur<br>
-    Mentions légales
-</footer>
-</body>
 
-<script type="text/javascript" src="webjars/jquery/3.3.1/jquery-3.3.1.jar"></script>
-<script type="text/javascript" src="ressources/bootstrap/js/bootstrap.js"></script>
-<!--script type="text/javascript" src=".js"></script-->
 
-</html>

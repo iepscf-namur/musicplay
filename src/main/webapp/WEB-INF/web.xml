@@ -33,19 +33,14 @@
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
 
-    <servlet>
-        <servlet-name>Connexion</servlet-name>
-        <servlet-class>servlets.Connexion</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>Connexion</servlet-name>
-        <url-pattern>/connexion</url-pattern>
-    </servlet-mapping>
-
     <jsp-config>
         <jsp-property-group>
             <url-pattern>*.jsp</url-pattern>
             <include-prelude>/WEB-INF/menu.jsp</include-prelude>
+        </jsp-property-group>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <include-coda>/WEB-INF/footer.jsp</include-coda>
         </jsp-property-group>
     </jsp-config>
 
