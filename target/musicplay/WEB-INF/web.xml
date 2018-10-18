@@ -15,7 +15,6 @@
         <url-pattern>/webjars/*</url-pattern>
     </servlet-mapping>
 
-
     <servlet>
         <servlet-name>Accueil</servlet-name>
         <servlet-class>servlets.Accueil</servlet-class>
@@ -49,4 +48,8 @@
             <include-prelude>/WEB-INF/menu.jsp</include-prelude>
         </jsp-property-group>
     </jsp-config>
+    <welcome-file-list>
+        <welcome-file>accueil</welcome-file>
+    </welcome-file-list>
 </web-app>
+
