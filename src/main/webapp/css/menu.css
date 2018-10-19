@@ -13,13 +13,45 @@ nav
     background-color: #ffffff33;
     max-height: 75px;
 }
+h3,
 .active
 {
     /*e3->227 f2->242 fd->253*/
     /*182->b6 194->c2 202->ca*/
     color : #b6c2ca;
 }
-
+.contenu
+{
+    /*00->0% 33->20% 66->40%  99->60% CC->80%*/
+    background-color: #ffffff33;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 15px;
+    height: 60%;
+    max-height:60%;
+    padding:10px;
+    text-align: center;
+}
+@media only screen and (max-width: 1900px) {
+    .contenu img{
+        border-radius: 30px 30px 30px 30px;
+        max-height: 250px;
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .contenu img{
+        border-radius: 30px 30px 30px 30px;
+        max-height: 200px;
+    }
+}
+.imageDeGauche
+{
+    transform: scaleX(-1);
+}
+footer
+{
+    font-size: 15px;
+    text-align: center;
+}
 /*
 **logo
 */

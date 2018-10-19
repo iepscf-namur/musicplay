@@ -3,7 +3,7 @@
         <div class="col-sm-4">
             <h3 class="titre">Connexion</h3>
         </div>
-        <div class="col-sm-8">
+        <div class="col-sm-4">
             <form method="post" action="login">
                 <p>
                     <label for="login">login : </label>
@@ -18,5 +18,6 @@
                 <input type="submit" />
             </form>
         </div>
+        <div class="col-sm-4"></div>
     </div>
 </div>
