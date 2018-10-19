@@ -36,11 +36,9 @@
     <jsp-config>
         <jsp-property-group>
             <url-pattern>*.jsp</url-pattern>
-            <include-prelude>/WEB-INF/menu.jsp</include-prelude>
-        </jsp-property-group>
-        <jsp-property-group>
-            <url-pattern>*.jsp</url-pattern>
-            <include-coda>/WEB-INF/footer.jsp</include-coda>
+            <page-encoding>UTF-8</page-encoding>
+            <include-prelude>/WEB-INF/jsp/common/menu.jsp</include-prelude>
+            <include-coda>/WEB-INF/jsp/common/footer.jsp</include-coda>
         </jsp-property-group>
     </jsp-config>
 

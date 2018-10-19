@@ -1,5 +1,3 @@
-<!--Cette première directive est obligatoire pour appliquer l'encodage-->
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div class="container contenu">
     <div class="row">
         <div class="col-sm-4">

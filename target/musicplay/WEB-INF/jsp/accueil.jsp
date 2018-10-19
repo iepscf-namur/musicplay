@@ -1,5 +1,3 @@
-<!--Cette première directive est obligatoire pour appliquer l'encodage-->
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div class="container contenu">
     <div class="row">
         <div class="col-sm-3">
@@ -13,12 +11,12 @@
             </p>
         </div>
         <div class="col-sm-4">
-            <img src="../images/content/hqdefault.jpg" >
+            <img src="../../images/content/hqdefault.jpg" >
         </div>
     </div>
     <div class="row">
         <div class="col-sm-4">
-            <img class="imageDeGauche" src="../images/content/hqdefault.jpg" >
+            <img class="imageDeGauche" src="../../images/content/hqdefault.jpg" >
         </div>
         <div class="col-sm-5">
             <p>

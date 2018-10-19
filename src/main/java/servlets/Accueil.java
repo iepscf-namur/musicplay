@@ -20,6 +20,6 @@ public class Accueil extends HttpServlet {
         int servletInfo = this.getServletContext().getMajorVersion();
         request.setAttribute("title", title);
         request.setAttribute("servletInfo", servletInfo);
-        this.getServletContext().getRequestDispatcher("/WEB-INF/accueil.jsp").forward(request, response);
+        this.getServletContext().getRequestDispatcher("/WEB-INF/jsp/accueil.jsp").forward(request, response);
     }
 }
