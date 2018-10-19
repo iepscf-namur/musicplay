@@ -4,8 +4,7 @@
 <html lang="en">
     <head>
         <link href="webjars/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <!--reconnu localement mais pas lors du déploiement sur le war-->
-        <link rel="stylesheet" href="../../css/menu.css" >
+        <link href="css/menu.css" rel="stylesheet" type="text/css">
         <title>Music play</title>
     </head>
     <body >
