@@ -11,12 +11,12 @@
             </p>
         </div>
         <div class="col-sm-4">
-            <img src="../../images/content/hqdefault.jpg" >
+            <img src="images/content/hqdefault.jpg" >
         </div>
     </div>
     <div class="row">
         <div class="col-sm-4">
-            <img class="imageDeGauche" src="../../images/content/hqdefault.jpg" >
+            <img class="imageDeGauche" src="images/content/hqdefault.jpg" >
         </div>
         <div class="col-sm-4">
             <p>

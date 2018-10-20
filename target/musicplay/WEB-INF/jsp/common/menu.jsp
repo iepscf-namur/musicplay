@@ -12,7 +12,7 @@
             <nav class="navbar  navbar-expand-lg navbar-light">
                 <div class="container">
                     <a class="navbar-brand" href="/accueil">
-                        <img class="logo" src="../../../images/logo/musicplay1.png" draggable="false">
+                        <img class="logo" src="images/logo/musicplay1.png" draggable="false">
                     </a>
                     <div class=" nav justify-content-end" id="navbarText">
                         <ul class="navbar-nav mr-auto">
